@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="205dp"
+                    android:layout_gravity="center"
+                    android:text="Avtomat1" />
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/status1"
+                    android:layout_width="102dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1.5"
+                    android:text="status"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/number1"
+                    android:layout_width="102dp"
+                    android:layout_weight="1"
+                    android:text="123"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/product1"
+                    android:layout_width="102dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1.5"
+                    android:text="status"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/productkol1"
+                    android:layout_width="102dp"
+                    android:layout_weight="1"
+                    android:text="123"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/product2"
+                    android:layout_width="102dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1.5"
+                    android:text="status"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/productkol2"
+                    android:layout_width="102dp"
+                    android:layout_weight="1"
+                    android:text="123"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/product3"
+                    android:layout_width="102dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1.5"
+                    android:text="status"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/productkol3"
+                    android:layout_width="102dp"
+                    android:layout_weight="1"
+                    android:text="123"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/product4"
+                    android:layout_width="102dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1.5"
+                    android:text="status"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/productkol4"
+                    android:layout_width="102dp"
+                    android:layout_weight="1"
+                    android:text="123"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/product5"
+                    android:layout_width="102dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1.5"
+                    android:text="status"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/productkol5"
+                    android:layout_width="102dp"
+                    android:layout_weight="1"
+                    android:text="123"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/product6"
+                    android:layout_width="102dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1.5"
+                    android:text="status"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/productkol6"
+                    android:layout_width="102dp"
+                    android:layout_weight="1"
+                    android:text="123"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/sum1"
+                    android:layout_width="102dp"
+                    android:layout_weight="1.5"
+                    android:text="sum"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/tableLayout2"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toRightOf="@+id/tableLayout1"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="205dp"
+            tools:layout_editor_absoluteY="205dp">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="205dp"
+                    android:layout_gravity="center"
+                    android:text="Avtomat2" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/status21"
+                    android:layout_width="102dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1.5"
+                    android:text="status"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/number21"
+                    android:layout_width="102dp"
+                    android:layout_weight="1"
+                    android:text="123"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/product21"
+                    android:layout_width="102dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1.5"
+                    android:text="status"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/productkol21"
+                    android:layout_width="102dp"
+                    android:layout_weight="1"
+                    android:text="123"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/product22"
+                    android:layout_width="102dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1.5"
+                    android:text="status"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/productkol22"
+                    android:layout_width="102dp"
+                    android:layout_weight="1"
+                    android:text="123"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/product23"
+                    android:layout_width="102dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1.5"
+                    android:text="status"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/productkol23"
+                    android:layout_width="102dp"
+                    android:layout_weight="1"
+                    android:text="123"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/product24"
+                    android:layout_width="102dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1.5"
+                    android:text="status"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/productkol24"
+                    android:layout_width="102dp"
+                    android:layout_weight="1"
+                    android:text="123"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/product25"
+                    android:layout_width="102dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1.5"
+                    android:text="status"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/productkol25"
+                    android:layout_width="102dp"
+                    android:layout_weight="1"
+                    android:text="123"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/product26"
+                    android:layout_width="102dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1.5"
+                    android:text="status"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/productkol26"
+                    android:layout_width="102dp"
+                    android:layout_weight="1"
+                    android:text="123"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/sum21"
+                    android:layout_width="102dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1.5"
+                    android:text="sum"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/tableLayout3"
+            android:layout_width="205dp"
+            android:layout_height="325dp"
+            app:layout_constraintTop_toBottomOf="@id/tableLayout1"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="365dp">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="205dp"
+                    android:layout_gravity="center"
+                    android:text="Avtomat3" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/status31"
+                    android:layout_width="102dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1.5"
+                    android:text="status"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/number31"
+                    android:layout_width="102dp"
+                    android:layout_weight="1"
+                    android:text="123"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/product31"
+                    android:layout_width="102dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1.5"
+                    android:text="status"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/productkol31"
+                    android:layout_width="102dp"
+                    android:layout_weight="1"
+                    android:text="123"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/product32"
+                    android:layout_width="102dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1.5"
+                    android:text="status"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/productkol32"
+                    android:layout_width="102dp"
+                    android:layout_weight="1"
+                    android:text="123"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/product33"
+                    android:layout_width="102dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1.5"
+                    android:text="status"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/productkol33"
+                    android:layout_width="102dp"
+                    android:layout_weight="1"
+                    android:text="123"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/product34"
+                    android:layout_width="102dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1.5"
+                    android:text="status"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/productkol34"
+                    android:layout_width="102dp"
+                    android:layout_weight="1"
+                    android:text="123"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/product35"
+                    android:layout_width="102dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1.5"
+                    android:text="status"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/productkol35"
+                    android:layout_width="102dp"
+                    android:layout_weight="1"
+                    android:text="123"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/product36"
+                    android:layout_width="102dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1.5"
+                    android:text="status"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/productkol36"
+                    android:layout_width="102dp"
+                    android:layout_weight="1"
+                    android:text="123"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/sum31"
+                    android:layout_width="102dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1.5"
+                    android:text="sum"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/tableLayout4"
+            android:layout_width="225dp"
+            android:layout_height="325dp"
+            app:layout_constraintLeft_toRightOf="@+id/tableLayout3"
+            app:layout_constraintTop_toBottomOf="@+id/tableLayout2"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="364dp">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="205dp"
+                    android:layout_gravity="center"
+                    android:text="Avtomat4" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/status41"
+                    android:layout_width="102dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1.5"
+                    android:text="status"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/number41"
+                    android:layout_width="102dp"
+                    android:layout_weight="1"
+                    android:text="123"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/product41"
+                    android:layout_width="102dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1.5"
+                    android:text="status"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/productkol41"
+                    android:layout_width="102dp"
+                    android:layout_weight="1"
+                    android:text="123"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/product42"
+                    android:layout_width="102dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1.5"
+                    android:text="status"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/productkol42"
+                    android:layout_width="102dp"
+                    android:layout_weight="1"
+                    android:text="123"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/product43"
+                    android:layout_width="102dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1.5"
+                    android:text="status"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/productkol43"
+                    android:layout_width="102dp"
+                    android:layout_weight="1"
+                    android:text="123"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/product44"
+                    android:layout_width="102dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1.5"
+                    android:text="status"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/productkol44"
+                    android:layout_width="102dp"
+                    android:layout_weight="1"
+                    android:text="123"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/product45"
+                    android:layout_width="102dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1.5"
+                    android:text="status"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/productkol45"
+                    android:layout_width="102dp"
+                    android:layout_weight="1"
+                    android:text="123"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/product46"
+                    android:layout_width="102dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1.5"
+                    android:text="status"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/productkol46"
+                    android:layout_width="102dp"
+                    android:layout_weight="1"
+                    android:text="123"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/sum41"
+                    android:layout_width="102dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1.5"
+                    android:text="sum"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+        </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
